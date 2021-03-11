@@ -6,3 +6,15 @@ img{
     width:100%;
     min-height:100px;
 }
+
+@media (max-width: 575px) {
+	p{
+		font-size: 23px;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+	p{
+		font-size: 18px;
+	}
+}
